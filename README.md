@@ -29,3 +29,14 @@ $ ./decrypt cripto.txt out.txt
 done
 -----------------------------------------
 ```
+
+|     | Ponderación                                                                                                                                                                                                 |
+|-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| +10 | Verifica que el programa reciba la cantidad correcta <br>de parámetros. En caso de que no sea así, el programa<br>despliega un mensaje adecuado y termina, regresando<br>-2 como resultado de su ejecución. |
+| +15 | Verifica que el archivo *origin* exista. En caso de que<br>no sea un archivo o no exista, el programa despliega<br>un mensaje adecuado y termina, regresando -3 como<br>resultado de su ejecución.          |
+| +15 | Verifica que el archivo *destination* exista. En caso de<br>que no sea un archivo o no exista, el programa despliega<br>un mensaje adecuado y termina, regresando -3<br>como resultado de su ejecución.     |
+| +50 | Decripta correctamente el archivo, regresando 0 como<br>resultado de su ejecución.                                                                                                                          |
+
+## Tips
+1. Usa “unsigned char”.
+2. Operaciones sobre bits: [https://www.cprogramming.com/tutorial/bitwise_operators.html]
