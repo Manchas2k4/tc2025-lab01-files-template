@@ -32,9 +32,10 @@ done
 
 |     | Ponderación                                                                                                                                                                                                 |
 |-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| +10 | Compila. |
 | +15 | Verifica que el programa reciba la cantidad correcta <br>de parámetros. En caso de que no sea así, el programa<br>despliega un mensaje adecuado y termina, regresando<br>-1 como resultado de su ejecución. |
 | +15 | Verifica que el archivo *origin* exista. En caso de que<br>no sea un archivo o no exista, el programa despliega<br>un mensaje adecuado y termina, regresando -2 como<br>resultado de su ejecución.          |
-| +70 | Decripta correctamente el archivo, regresando 0 como<br>resultado de su ejecución.                                                                                                                          |
+| +60 | Decripta correctamente el archivo, regresando 0 como<br>resultado de su ejecución.                                                                                                                          |
 
 ## Tips
 1. Usa “unsigned char”.
