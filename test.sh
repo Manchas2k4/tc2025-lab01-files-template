@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sed -i 's/\r//g' $1
+sed -i 's/\r//g' input.txt
+sed -i 's/\r//g' output.txt 
+
 cal=0
 
 echo "Compiling..."
@@ -33,6 +37,7 @@ echo " done"
 
 echo "Verifying the operation of the program..."
 ./app input.txt temp.txt > /dev/null 2>&1
+sed -i 's/\r//g' temp.txt
 diff temp.txt output.txt > /dev/null 2>&1
 if [[ $? -ne 0 ]] ; then 
 	echo "grade: $cal"
